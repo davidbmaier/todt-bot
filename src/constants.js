@@ -7,6 +7,12 @@ const ratingEmojis = [
   `PlusPlusPlus`
 ];
 
+const cupRegions = {
+  europe: `Europe`,
+  america: `America`,
+  asia: `Asia`
+};
+
 const bingoFields = [
   // map styles
   `Tech of the Day`,
@@ -64,5 +70,6 @@ const bingoFields = [
 
 module.exports = {
   ratingEmojis,
+  cupRegions,
   bingoFields
 };
